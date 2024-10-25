@@ -4,7 +4,6 @@ import { Program } from "@coral-xyz/anchor";
 import { TokenLottery } from "../target/types/token_lottery";
 import { TOKEN_PROGRAM_ID } from "@coral-xyz/anchor/dist/cjs/utils/token";
 import { getAssociatedTokenAddressSync } from "@solana/spl-token";
-import { before, describe, it } from "node:test";
 
 
 describe("token-lottery", () => {
